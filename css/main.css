@@ -1,0 +1,40 @@
+@font-face{
+    font-family: 'Newsreader';
+	font-weight: 700;
+	font-style: normal;
+    src: url('../fonts/Newsreader-VariableFont_opsz\,wght.ttf') format('truetype');
+}
+
+* { box-sizing: border-box; }  
+
+body{
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
+    color:rgb(49,26,4);
+    font-size:1.5em;
+}
+
+h1{
+    font-family: 'Newsreader', 'Times New Roman', Times, serif;
+    color:rgb(188, 101,10);
+    margin:0;
+}
+
+h2{
+    font-family: 'Newsreader', 'Times New Roman', Times, serif;
+    margin:0;
+}
+
+h3{
+    color:rgb(149,139,117);
+    font-weight: normal;
+    margin:0;
+}
+
+h4{
+    margin:0;
+}
+
+p{
+    margin:0;
+}
+
