@@ -1,0 +1,31 @@
+* { box-sizing: border-box; }  
+
+header{
+    display: -webkit-flex; /* For support in a series of Webkit browsers */
+	display: -ms-flex; /* For support in IE 10 */
+	display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: rgb(229,223,211);
+    background: linear-gradient(0deg, rgba(229,223,211,1) 0%, rgba(255,255,255,1) 100%);
+    height:15em;
+    padding-left:7vw;
+    padding-right:7vw;
+    padding-bottom:3em;
+    justify-content: end;
+    margin-bottom:1.5em;
+}
+
+.body-box{
+    display: -webkit-flex; /* For support in a series of Webkit browsers */
+	display: -ms-flex; /* For support in IE 10 */
+	display: flex;
+	-webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left:7vw;
+    margin-right:7vw;
+    gap:1em;
+    
+}
