@@ -1,3 +1,4 @@
+/*----//TYPE ----*/
 @font-face{
     font-family: 'Newsreader';
 	font-weight: 700;
@@ -29,14 +30,25 @@ h3{
 }
 
 h4{
+    color:rgb(149,139,117);
+    font-weight: 300;
     margin:0;
 }
 
 p{
     margin:0;
-    margin-top:0.5em;
+    font-weight: 300;
 }
+/*----//TYPE ----*/
 
+/*----- IMGs ----*/
+img{
+    height: auto;
+    max-width:100%;
+}
+/*----- //IMGs ----*/
+
+/* ---- HEADER & SECTIONS ----- */
 header{
     background: rgb(229,223,211);
     background: linear-gradient(0deg, rgba(229,223,211,1) 0%, rgba(255,255,255,1) 100%);
@@ -44,4 +56,67 @@ header{
     padding-left:7vw;
     padding-right:7vw;
     justify-items:flex-end;
+}
+#features, #testing{
+    background: rgb(229,223,211);
+    background: linear-gradient(0deg, rgba(229,223,211,1) 0%, rgba(255,255,255,1) 100%);
+}
+/* ---- //HEADER & SECTIONS ----- */
+
+/*---- NAV BAR ----*/
+
+nav .nav-container{
+    background:white;
+    padding:1em;
+}
+
+.nav-container ul{
+    list-style: none;
+}
+.nav-container ul li{
+    display:inline-block;
+}
+.nav-container ul li a{
+    text-decoration: none;
+    color:rgb(49,26,4);
+    padding:1em;
+}
+
+
+.nav-container a:focus, .nav-container a:hover{
+    color:rgb(188, 101,10);
+    text-decoration: underline;
+}
+
+
+section{
+    height:30em;
+}
+
+.section-num{
+    color:rgb(188, 101,10);
+}
+
+.persona-box{
+    background-color: rgb(236,232,223);
+    padding:1em;
+    border-top-left-radius:1em;
+    border-bottom-left-radius:1em;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+}
+.persona-box p{
+    color:rgb(149,139,117);
+    
+}
+.persona-box h4{
+    color:rgb(49,26,4);
+}
+.personapic{
+    min-width: 4em;
+    min-height: 4em;
+    width:4em;
+    height:4em;
+    background-color:red;
+    border-radius:1em;
 }

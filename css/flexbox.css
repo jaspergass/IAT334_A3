@@ -14,8 +14,17 @@ header{
     padding-right:7vw;
     padding-bottom:3em;
     justify-content: end;
-    margin-bottom:1.5em;
+
 }
+
+.nav-container ul{
+    display: -webkit-flex; 
+	display: -ms-flex; 
+    display:flex;
+
+    justify-content: space-evenly;
+}
+
 
 .body-box{
     display: -webkit-flex; /* For support in a series of Webkit browsers */
@@ -24,8 +33,56 @@ header{
 	-webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-left:7vw;
-    margin-right:7vw;
     gap:1em;
     
+}
+
+section{
+    padding-left:7vw;
+    padding-right:7vw;
+}
+
+.section-title{
+    display: -webkit-flex; /* For support in a series of Webkit browsers */
+	display: -ms-flex; /* For support in IE 10 */
+	display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap:1em;
+}
+
+.section-box{
+    display: -webkit-flex; /* For support in a series of Webkit browsers */
+	display: -ms-flex; /* For support in IE 10 */
+	display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap:10vw;
+}
+.section-text{
+    display: -webkit-flex; /* For support in a series of Webkit browsers */
+	display: -ms-flex; /* For support in IE 10 */
+	display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width:50vw;
+    max-width:30em;
+    gap:1em;
+}
+
+.persona-box{
+    display: -webkit-flex; /* For support in a series of Webkit browsers */
+	display: -ms-flex; /* For support in IE 10 */
+	display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap:1em;
+}
+
+.persona-text{
+    flex-shrink: 20;
 }
