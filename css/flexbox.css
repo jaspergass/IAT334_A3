@@ -17,11 +17,13 @@ header{
 
 }
 
-.nav-container ul{
+.nav-container{
     display: -webkit-flex; 
 	display: -ms-flex; 
     display:flex;
-
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -42,6 +44,17 @@ section{
     padding-right:7vw;
 }
 
+.section-box{
+    display: -webkit-flex; /* For support in a series of Webkit browsers */
+	display: -ms-flex; /* For support in IE 10 */
+	display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap:1em;
+    justify-content:space-around;
+}
+
 .section-title{
     display: -webkit-flex; /* For support in a series of Webkit browsers */
 	display: -ms-flex; /* For support in IE 10 */
@@ -50,17 +63,10 @@ section{
     -ms-flex-direction: row;
     flex-direction: row;
     gap:1em;
+    flex:1 1 6em;
 }
 
-.section-box{
-    display: -webkit-flex; /* For support in a series of Webkit browsers */
-	display: -ms-flex; /* For support in IE 10 */
-	display: flex;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    gap:10vw;
-}
+
 .section-text{
     display: -webkit-flex; /* For support in a series of Webkit browsers */
 	display: -ms-flex; /* For support in IE 10 */
@@ -68,30 +74,12 @@ section{
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    width:50vw;
-    max-width:30em;
-    gap:1em;
+    flex:5 5 ;
+    max-width:40em;
 }
 
-.persona-box{
-    display: -webkit-flex; /* For support in a series of Webkit browsers */
-	display: -ms-flex; /* For support in IE 10 */
-	display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    gap:1em;
+@media (max-width:62em){
+    .section-title{
+        flex:0 0 100% ;
+    }
 }
-
-.persona-flex1 { 
-    display: -webkit-flex; /* For support in a series of Webkit browsers */
-	display: -ms-flex; /* For support in IE 10 */
-	display: flex;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;    
-    gap:1em;
-    flex: 1 1 15em; 
-}
-
-.persona-flex2 { flex: 3 3 30em; } 

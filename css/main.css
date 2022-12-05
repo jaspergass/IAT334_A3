@@ -57,10 +57,7 @@ header{
     padding-right:7vw;
     justify-items:flex-end;
 }
-#features, #testing{
-    background: rgb(229,223,211);
-    background: linear-gradient(0deg, rgba(229,223,211,1) 0%, rgba(255,255,255,1) 100%);
-}
+
 /* ---- //HEADER & SECTIONS ----- */
 
 /*---- NAV BAR ----*/
@@ -70,16 +67,11 @@ nav .nav-container{
     padding:1em;
 }
 
-.nav-container ul{
-    list-style: none;
-}
-.nav-container ul li{
-    display:inline-block;
-}
-.nav-container ul li a{
+
+.nav-container  a{
     text-decoration: none;
     color:rgb(49,26,4);
-    padding:1em;
+    
 }
 
 
@@ -95,29 +87,4 @@ section{
 }
 .section-num{
     color:rgb(188, 101,10);
-}
-
-.persona-box{
-    background-color: rgb(236,232,223);
-    padding:1em;
-    border-top-left-radius:1em;
-    border-bottom-left-radius:1em;
-    margin-top:0.5em;
-    margin-bottom:0.5em;
-}
-
-.persona-box p{
-    color:rgb(149,139,117);
-    font-size:0.8em;
-}
-.persona-box h4{
-    color:rgb(49,26,4);
-}
-.personapic{
-    min-width: 4em;
-    min-height: 4em;
-    width:4em;
-    height:4em;
-    background-color:red;
-    border-radius:1em;
 }
