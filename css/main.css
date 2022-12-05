@@ -88,3 +88,11 @@ section{
 .section-num{
     color:rgb(188, 101,10);
 }
+
+
+.feature-img{
+    background-color: aqua;
+    height:20em;
+    width:10em;
+    border: 0.1em black solid;
+}
