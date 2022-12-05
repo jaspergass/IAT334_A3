@@ -90,9 +90,9 @@ nav .nav-container{
 
 
 section{
-    height:30em;
+    padding-top:1em;
+    padding-bottom: 1em;
 }
-
 .section-num{
     color:rgb(188, 101,10);
 }
@@ -105,9 +105,10 @@ section{
     margin-top:0.5em;
     margin-bottom:0.5em;
 }
+
 .persona-box p{
     color:rgb(149,139,117);
-    
+    font-size:0.8em;
 }
 .persona-box h4{
     color:rgb(49,26,4);
