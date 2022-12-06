@@ -40,7 +40,7 @@ header {
   -ms-flex-direction: column;
   flex-direction: column;
   margin: 3em 0;
-  gap: 1em;
+  gap: 2em;
 }
 
 section {
@@ -142,8 +142,15 @@ section {
   
   flex: 1 1 6em;
 }
-.test-box h3{
-    padding-left:1.5em;
+.test-title{
+    display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  align-items: center;
+  gap:1em;
 }
 .border{
     border-left: rgb(188, 101, 10) 0.1em dashed;
@@ -162,19 +169,35 @@ section {
 
 }
 
-.results-box{
+.wrap-box{
     display: -webkit-flex; /* For support in a series of Webkit browsers */
     display: -ms-flex; /* For support in IE 10 */
     display: flex;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    
+    gap:1em;
 }
 .results-item {
     flex:40%;
-    padding:3em;
+    padding-left:3em;
+    padding-right:3em;
 }
+
+.summary-title{
+    flex:20%;
+}
+.summary-text{
+    flex:75%;
+    display: -webkit-flex; /* For support in a series of Webkit browsers */
+    display: -ms-flex; /* For support in IE 10 */
+    display: flex;
+    -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+    gap:1em;
+}
+
 
 @media (max-width: 62em) {
   .section-title {

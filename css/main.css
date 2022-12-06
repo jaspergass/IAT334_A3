@@ -76,6 +76,11 @@ img {
   height: 90px;
   box-shadow: 13px 10px 26px rgba(65, 41, 18, 0.2);
 }
+.circle-img{
+    height:1em;
+    width:auto;
+    transform:translate(-0.5em,0em);
+}
 /*----- //IMGs ----*/
 
 /* ---- HEADER & SECTIONS ----- */
@@ -112,10 +117,7 @@ nav .nav-container {
   text-decoration: underline;
 }
 
-section {
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
+
 .section-num {
   color: rgb(188, 101, 10);
 }
