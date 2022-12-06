@@ -41,6 +41,9 @@ h4 {
   margin: 0;
 }
 
+h5{
+    margin:0;
+}
 p {
   margin: 0;
   font-weight: 300;
@@ -54,6 +57,13 @@ p {
   margin: 1em 0;
   color: rgb(49, 26, 4);
   /* line-height: 106%; */
+}
+
+.test-box h4{
+    color:rgb(49, 26, 4);
+}
+.test-box h3{
+    color:rgb(49, 26, 4);
 }
 /*----//TYPE ----*/
 
@@ -150,3 +160,5 @@ section {
     display: block;
   }
 }
+
+
