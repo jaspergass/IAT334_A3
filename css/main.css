@@ -85,6 +85,9 @@ img {
 .section-left img{
     max-width:10em;
 }
+.tagImg{
+    max-width:23em;
+}
 /*----- //IMGs ----*/
 
 /* ---- HEADER & SECTIONS ----- */
@@ -194,10 +197,6 @@ nav .nav-container {
     display: block;
     justify-content: left;
   }
-
-  .feature-img.right {
-    margin-left: 150px;
-  }
 }
 
 @media (max-width: 600px) {
@@ -213,3 +212,6 @@ nav .nav-container {
 }
 
 
+.feature-img{
+    max-width:10em;
+}
