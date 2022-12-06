@@ -162,6 +162,20 @@ section {
 
 }
 
+.results-box{
+    display: -webkit-flex; /* For support in a series of Webkit browsers */
+    display: -ms-flex; /* For support in IE 10 */
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+}
+.results-item {
+    flex:40%;
+    padding:3em;
+}
+
 @media (max-width: 62em) {
   .section-title {
     flex: 0 0 100%;
