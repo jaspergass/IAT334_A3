@@ -121,6 +121,9 @@ section {
   color: rgb(49, 26, 4);
 }
 
+/* .feature-img .right {
+  border: 1px solid black;
+} */
 /* --- // MEDIA QUERIES ----- */
 
 @media (min-width: 600px) {
@@ -130,12 +133,20 @@ section {
     display: block;
     justify-content: left;
   }
+
+  .feature-img.right {
+    margin-left: 150px;
+  }
 }
 
 @media (max-width: 600px) {
   .feature-img {
     max-width: 50%;
     max-height: 50%;
+  }
+
+  .feature-img.right {
+    margin-left: 0px;
     display: block;
   }
 }
