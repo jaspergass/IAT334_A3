@@ -30,6 +30,13 @@ header{
   -ms-flex-direction: row;
   flex-direction: row;
   align-items: center;
+  
+  gap:1em;
+  padding-left: 7vw;
+  padding-right: 7vw;
+}
+header .title{
+  flex:50%;
 }
 .nav-container {
   display: -webkit-flex;
