@@ -41,6 +41,10 @@ h4 {
   margin: 0;
 }
 
+h5{
+    margin:0;
+}
+
 p {
   margin: 0;
   font-weight: 300;
@@ -55,6 +59,8 @@ p {
   color: rgb(49, 26, 4);
   /* line-height: 106%; */
 }
+
+
 /*----//TYPE ----*/
 
 /*----- IMGs ----*/
@@ -70,10 +76,15 @@ img {
   height: 90px;
   box-shadow: 13px 10px 26px rgba(65, 41, 18, 0.2);
 }
+.circle-img{
+    height:1em;
+    width:auto;
+    transform:translate(-0.5em,0em);
+}
 /*----- //IMGs ----*/
 
 /* ---- HEADER & SECTIONS ----- */
-header {
+.header {
   background: rgb(229, 223, 211);
   background: linear-gradient(
     0deg,
@@ -84,6 +95,26 @@ header {
   padding-left: 7vw;
   padding-right: 7vw;
   justify-items: flex-end;
+}
+
+header{
+    height:4em;
+    width:100%;
+    background-color: white;
+}
+
+header button{
+    background:none;
+    border:none;
+    padding:0.3em;
+    padding-left:0.5em;
+    padding-right:0.5em;
+    height:fit-content;
+}
+header button:active, header button:hover, header .active{
+    background-color: rgb(188, 101, 10);
+    color:white;
+    border-radius: 0.6em;
 }
 
 /* ---- //HEADER & SECTIONS ----- */
@@ -106,10 +137,7 @@ nav .nav-container {
   text-decoration: underline;
 }
 
-section {
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
+
 .section-num {
   color: rgb(188, 101, 10);
 }
@@ -150,3 +178,5 @@ section {
     display: block;
   }
 }
+
+
