@@ -114,15 +114,13 @@ section {
   color: rgb(188, 101, 10);
 }
 
-<<<<<<< HEAD .feature-text h4 {
+.feature-text h4 {
   display: inline;
   text-align: left;
   font-weight: 500;
   color: rgb(49, 26, 4);
 }
 
-=======
->>>>>>> master
 /* --- // MEDIA QUERIES ----- */
 
 @media (min-width: 600px) {
