@@ -121,12 +121,35 @@ header button{
     padding-right:0.5em;
     height:fit-content;
 }
+
 header button:active, header button:hover, header .active{
     background-color: rgb(188, 101, 10);
     color:white;
     border-radius: 0.6em;
 }
 
+button#download {
+    margin: 1em 0;
+    font-size: 16px;
+    padding: 0.5em 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    width: 250px;
+    height: fit-content;
+    color: rgb(229, 223, 211);
+    background-color: rgb(188, 101, 10);
+    border: 0;
+    border-radius: 20px;
+  }
+  
+  button#download:hover {
+    transition: all ease-in-out 150ms;
+    box-shadow: 13px 10px 26px rgba(65, 41, 18, 0.2);
+  }
+  
+  button#download:active {
+    background-color: rgb(150, 78, 2);
+  }
 /* ---- //HEADER & SECTIONS ----- */
 
 /*---- NAV BAR ----*/
