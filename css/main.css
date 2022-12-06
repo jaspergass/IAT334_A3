@@ -81,6 +81,10 @@ img {
     width:auto;
     transform:translate(-0.5em,0em);
 }
+
+.section-left img{
+    max-width:10em;
+}
 /*----- //IMGs ----*/
 
 /* ---- HEADER & SECTIONS ----- */
