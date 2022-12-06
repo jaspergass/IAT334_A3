@@ -6,6 +6,12 @@
   src: url("../fonts/Newsreader-VariableFont_opsz\,wght.ttf") format("truetype");
 }
 
+a {
+  padding: 1em;
+  font-size: 18px;
+  font-weight: 300;
+}
+
 body {
   font-family: "Outfit", Arial, Helvetica, sans-serif;
   color: rgb(49, 26, 4);
@@ -59,9 +65,10 @@ img {
 
 #icon {
   display: block;
-  margin: 1em 0;
-  width: 100px;
-  height: 100px;
+  margin: 1em 0 0 0;
+  width: 90px;
+  height: 90px;
+  box-shadow: 13px 10px 26px rgba(65, 41, 18, 0.2);
 }
 /*----- //IMGs ----*/
 
@@ -107,9 +114,21 @@ section {
   color: rgb(188, 101, 10);
 }
 
-.feature-img {
-  background-color: aqua;
-  height: 20em;
-  width: 10em;
-  border: 0.1em black solid;
+/* --- // MEDIA QUERIES ----- */
+
+@media (min-width: 600px) {
+  .feature-img {
+    max-width: 30%;
+    max-height: 30%;
+    display: block;
+    justify-content: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .feature-img {
+    max-width: 50%;
+    max-height: 50%;
+    display: block;
+  }
 }
