@@ -84,7 +84,7 @@ img {
 /*----- //IMGs ----*/
 
 /* ---- HEADER & SECTIONS ----- */
-header {
+.header {
   background: rgb(229, 223, 211);
   background: linear-gradient(
     0deg,
@@ -97,6 +97,16 @@ header {
   justify-items: flex-end;
 }
 
+header{
+    height:4em;
+    width:100%;
+    background-color: white;
+}
+
+header button{
+    background:none;
+    border:none;
+}
 /* ---- //HEADER & SECTIONS ----- */
 
 /*---- NAV BAR ----*/
