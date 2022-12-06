@@ -106,7 +106,17 @@ header{
 header button{
     background:none;
     border:none;
+    padding:0.3em;
+    padding-left:0.5em;
+    padding-right:0.5em;
+    height:fit-content;
 }
+header button:active, header button:hover, header .active{
+    background-color: rgb(188, 101, 10);
+    color:white;
+    border-radius: 0.6em;
+}
+
 /* ---- //HEADER & SECTIONS ----- */
 
 /*---- NAV BAR ----*/

@@ -22,6 +22,15 @@
   justify-content: end;
 }
 
+header{
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  align-items: center;
+}
 .nav-container {
   display: -webkit-flex;
   display: -ms-flex;
